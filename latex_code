@@ -1,0 +1,99 @@
+\documentclass[a4paper,10.5pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage[margin=1.3cm,top=1.2cm,bottom=1.2cm]{geometry}
+
+% Formatting
+\renewcommand{\baselinestretch}{1.05}
+\setlist[itemize]{left=1em,noitemsep,topsep=2pt}
+
+% Section styling
+\titleformat{\section}{\Large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{6pt}{4pt}
+
+% Custom entry format
+\newcommand{\cventry}[4]{
+  \textbf{#1} \hfill \textit{#2}\\
+  \textit{#3} \hfill #4\\
+}
+
+\begin{document}
+
+% Name + Contact
+\begin{center}
+    {\LARGE \textbf{Pallavi Kathait}} \\
+    \href{mailto:Kathaitpallavi164@gmail.com}{Kathaitpallavi164@gmail.com} \,|\, 
+    \href{https://linkedin.com/in/pallavi-kathait-b2764b256}{LinkedIn} \,|\, 
+    \href{https://github.com/iceybubble}{GitHub}
+\end{center}
+
+% Summary
+\section*{Summary}
+Aspiring \textbf{Cybersecurity Specialist} with hands-on experience in penetration testing, vulnerability assessments, and system hardening.  
+Conducted security audits using tools like \textbf{Metasploitable, Wireshark, and Nmap}, while actively participating in \textbf{Capture The Flag (CTF)} events to enhance problem-solving and critical thinking skills.  
+Proven ability to identify and report vulnerabilities in real-world systems, supported by internships across multiple domains including \textbf{Java development} and \textbf{network security}.  
+Passionate about continuous learning, with certifications in cybersecurity fundamentals and actively preparing for \textbf{CCNA and CCNP}.  
+
+% Education
+\section*{Education}
+\cventry{Bachelor of Science (B.Sc.) in Computer Science}{Aug 2025 -- Jul 2028}{Hemwati Nandan Bahuguna Central University, Srinagar Garhwal}{Developing core technical skills in programming, data structures, and computer systems.}
+\cventry{Class XII (90\%)}{Mar 2021}{Saraswati Vidhya Mandir}{}{}
+
+% Experience
+\section*{Experience}
+\textbf{Cybersecurity Intern} \hfill Oct 2023 -- Nov 2023 \\
+Next Gen Software Pvt. Ltd. (Remote) 
+\begin{itemize}
+  \item Conducted \textbf{vulnerability assessments} and provided remediation steps to strengthen system security.  
+  \item Authored detailed \textbf{incident reports} and contributed to drafting organizational security policies.  
+  \item Assisted in monitoring live systems using \textbf{SIEM dashboards} to detect anomalies and intrusion attempts.  
+\end{itemize}
+
+\textbf{Internship Trainee (Java Developer)} \hfill Oct 2023 -- Nov 2023 \\
+Oasis Infobyte (Remote) 
+\begin{itemize}
+  \item Worked with \textbf{Java Collections, JSP, and JDBC} to improve backend processing efficiency.  
+  \item Implemented \textbf{database connectivity features} with JDBC for dynamic data handling.  
+  \item Contributed to a mini-project: a \textbf{student management system}, applying OOP concepts for modularity.  
+\end{itemize}
+
+\textbf{Cybersecurity Intern} \hfill Apr 2023 -- May 2023 \\
+Academor (Remote) 
+\begin{itemize}
+  \item Gained hands-on exposure in \textbf{network security, vulnerability testing, and cyber threat analysis}.  
+  \item Strengthened understanding of \textbf{cybersecurity fundamentals and best practices}.  
+  \item Supported research into emerging cyber threats by simulating \textbf{attack scenarios} for training.  
+\end{itemize}
+
+% Projects
+\section*{Projects}
+\textbf{ALERTIX (Security Information and Event Management Tool)}  
+\begin{itemize}
+  \item Designed and deployed a \textbf{SIEM solution} using the ELK stack, building dashboards to distinguish between productive and distractive activities while correlating logs across multiple sources in real time.  
+  \item Optimized parsing rules and anomaly detection logic, reducing false positives and enabling quicker and more reliable decision-making by administrators.  
+  \item Implemented automated log collection pipelines from multiple servers, increasing monitoring efficiency by \textbf{40\%}.  
+  \item Delivered actionable security insights that directly improved response times and system resilience.  
+\end{itemize}
+
+% Skills
+\section*{Skills}
+\begin{tabular}{p{3.5cm} p{12cm}}
+Cybersecurity Tools & Google Dorking, Metasploitable, SIEM, ELK Stack \\
+Programming & Python, C, Shell Scripting \\
+Operating Systems & Windows, Linux (Ubuntu, Kali) \\
+Networking & TCP/IP, Wireshark, Nmap \\
+Other & CTF Participation, Bug Bounty Hunting \\
+\end{tabular}
+
+% Certifications
+\section*{Certifications}
+\begin{itemize}
+  \item Networking Basics, Introduction to Cybersecurity, Computer Hardware Basics (Cisco)  
+  \item CASA (APISec University)  
+  \item Preparing for CCNA and CCNP  
+\end{itemize}
+
+\end{document}
