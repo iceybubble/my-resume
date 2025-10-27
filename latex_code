@@ -76,8 +76,7 @@ Academor (Remote)
 \textbf{ThreatSphere ( a sandbox for safe malware execution and behavior analysis) }
 \begin{itemize}
   \item Built ThreatSphere, a sandboxed malware analysis environment that safely executes and monitors ransomware behavior in isolated systems.  
-  \item Developed a Flask + MongoDB backend to capture, store, and visualize malware activity logs for research and educational purposes.  
- \textbf{40\%}.    
+  \item Developed a Flask + MongoDB backend to capture, store, and visualize malware activity logs for research and educational purposes.   
 \end{itemize}
 % Skills
 \section*{Skills}
