@@ -27,15 +27,13 @@
     {\LARGE \textbf{Pallavi Kathait}} \\
     \href{mailto:Kathaitpallavi164@gmail.com}{Kathaitpallavi164@gmail.com} \,|\, 
     \href{https://linkedin.com/in/pallavi-kathait-b2764b256}{LinkedIn} \,|\, 
-    \href{https://github.com/iceybubble}{GitHub}
+    \href{https://github.com/iceybubble}{GitHub}\,|\,
+    \href{https://tryhackme.com/p/PallaviKathait}{TryHackMe}
 \end{center}
 
 % Summary
 \section*{Summary}
-Aspiring \textbf{Cybersecurity Specialist} with hands-on experience in penetration testing, vulnerability assessments, and system hardening.  
-Conducted security audits using tools like \textbf{Metasploitable, Wireshark, and Nmap}, while actively participating in \textbf{Capture The Flag (CTF)} events to enhance problem-solving and critical thinking skills.  
-Proven ability to identify and report vulnerabilities in real-world systems, supported by internships across multiple domains including \textbf{Java development} and \textbf{network security}.  
-Passionate about continuous learning, with certifications in cybersecurity fundamentals and actively preparing for \textbf{CCNA and CCNP}.  
+Cybersecurity Specialist with practical experience in penetration testing, vulnerability assessment, and system hardening. Proficient in using tools like Wireshark, Nmap, and Metasploitable for threat analysis and network defense. Experienced in conducting real-world security audits and reporting vulnerabilities. Strong foundation in cybersecurity concepts, supported by internships in network security and software development. .  
 
 % Education
 \section*{Education}
@@ -72,12 +70,15 @@ Academor (Remote)
 \section*{Projects}
 \textbf{ALERTIX (Security Information and Event Management Tool)}  
 \begin{itemize}
-  \item Designed and deployed a \textbf{SIEM solution} using the ELK stack, building dashboards to distinguish between productive and distractive activities while correlating logs across multiple sources in real time.  
-  \item Optimized parsing rules and anomaly detection logic, reducing false positives and enabling quicker and more reliable decision-making by administrators.  
-  \item Implemented automated log collection pipelines from multiple servers, increasing monitoring efficiency by \textbf{40\%}.  
-  \item Delivered actionable security insights that directly improved response times and system resilience.  
+  \item Designed and deployed a \textbf{SIEM solution} using the ELK stack, building dashboards to distinguish between productive and distractive activities while correlating logs across multiple sources in real time.    
+  \item Implemented automated log collection pipelines from multiple servers, increasing monitoring efficiency by \textbf{40\%}.    
 \end{itemize}
-
+\textbf{ThreatSphere ( a sandbox for safe malware execution and behavior analysis) }
+\begin{itemize}
+  \item Built ThreatSphere, a sandboxed malware analysis environment that safely executes and monitors ransomware behavior in isolated systems.  
+  \item Developed a Flask + MongoDB backend to capture, store, and visualize malware activity logs for research and educational purposes.  
+ \textbf{40\%}.    
+\end{itemize}
 % Skills
 \section*{Skills}
 \begin{tabular}{p{3.5cm} p{12cm}}
@@ -93,7 +94,7 @@ Other & CTF Participation, Bug Bounty Hunting \\
 \begin{itemize}
   \item Networking Basics, Introduction to Cybersecurity, Computer Hardware Basics (Cisco)  
   \item CASA (APISec University)  
-  \item Preparing for CCNA and CCNP  
+  \item CTIA (EC-Council) 
 \end{itemize}
 
 \end{document}
