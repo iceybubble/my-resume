@@ -68,12 +68,12 @@ Academor (Remote)
 
 % Projects
 \section*{Projects}
-\textbf{ALERTIX (Security Information and Event Management Tool)}  
+\textbf{ALERTIX (Security Information and Event Management Tool)} \href{https://github.com/iceybubble/Alertix}{ALERTIX} 
 \begin{itemize}
   \item Designed and deployed a \textbf{SIEM solution} using the ELK stack, building dashboards to distinguish between productive and distractive activities while correlating logs across multiple sources in real time.    
   \item Implemented automated log collection pipelines from multiple servers, increasing monitoring efficiency by \textbf{40\%}.    
 \end{itemize}
-\textbf{ThreatSphere ( a sandbox for safe malware execution and behavior analysis) }
+\textbf{ThreatSphere ( a sandbox for safe malware execution and behavior analysis) }\href{https://github.com/iceybubble/ThreatSphere}{ThreatSphere}
 \begin{itemize}
   \item Built ThreatSphere, a sandboxed malware analysis environment that safely executes and monitors ransomware behavior in isolated systems.  
   \item Developed a Flask + MongoDB backend to capture, store, and visualize malware activity logs for research and educational purposes.   
